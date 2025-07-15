@@ -14,7 +14,9 @@ An annuity is a finite stream of cash flows of identical magnitude and equal spa
 In time.
 - 年金：每年领一次
 - finite
-$$PV = \frac{CF* (1 - (1 + R)^-T)} {R}$$
+$$
+PV = \frac{CF* (1 - (1 + R)^-T)} {R}
+$$
 
 - $(1 + R)^-T$ : Discount factor for a cash flow received in period T
 - $1-(1 + R)^-T$: Cumulative discount factor for T periods of $1 each
