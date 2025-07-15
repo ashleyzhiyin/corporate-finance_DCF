@@ -39,7 +39,8 @@ r: 增长率 growth rate
 An perpetuity is an infinite stream of cashflows of identical magnitude and equal spacing in time
 - infinite
 - perpetuities, consol bonds
-$$PV of Perpetuity = \frac{CF}{R}
+$$
+PV of Perpetuity = \frac{CF}{R}
 $$
 **永续年金的意思：**
 - 每年付同样的钱（CF）
@@ -48,7 +49,8 @@ $$
 ### Growing Perpetuity 永续增长
 A growing perpetuity is an infinite stream of cash flows that grow at a constant rate and that are evenly spaced through time
 - Dividends streams
-$$PV of Perpetuity = \frac{CF}{R-g}
+$$
+PV of Perpetuity = \frac{CF}{R-g}
 $$
 
 Saving with Tax 存更多钱
