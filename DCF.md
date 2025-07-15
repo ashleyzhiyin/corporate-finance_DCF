@@ -7,7 +7,7 @@
 	- 我每年领$1,000，连续10年，问今天值多少钱。
 	- 每年/每月/每期？→ 年金。 
 ### 现值-单笔未来现金：
-$$ PV = FV / （1 + r )^n$$
+$$ PV = FV / （1 + r )^n $$
 - present / future value
 ### Annuity
 An annuity is a finite stream of cash flows of identical magnitude and equal spacing
