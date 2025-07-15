@@ -13,7 +13,7 @@ $$ PV = FV / （1 + r )^n $$
 An annuity is a finite stream of cash flows of identical magnitude and equal spacing
 In time.
 - 年金：每年领一次
-- finite
+- finite：
 $$PV = \frac{CF* (1 - (1 + R)^-T)} {R}$$
 
 - $(1 + R)^-T$ : Discount factor for a cash flow received in period T
@@ -26,9 +26,7 @@ Growing Annuity
 A growing annuity is a finite stream of cash flows that grow at a constant rate and are evenly spaced through time.
 - Income streams, savings strategies, and project revenue/expense streams.
 
-$$
-PV = CF \times \frac{1 - \left( \frac{1 + R}{1 + g} \right)^{-T}}{R - g}
-$$
+$$PV = CF \times \frac{1 - \left( \frac{1 + R}{1 + g} \right)^{-T}}{R - g}$$
 
 R: 贴现率 discount rate
 r: 增长率 growth rate
