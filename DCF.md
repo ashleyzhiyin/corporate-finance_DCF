@@ -28,35 +28,31 @@ A growing annuity is a finite stream of cash flows that grow at a constant rate 
 
 $$PV = CF \times \frac{1 - \left( \frac{1 + R}{1 + g} \right)^{-T}}{R - g}$$
 
-R: 贴现率 discount rate
-r: 增长率 growth rate
+- R: 贴现率 discount rate
+- r: 增长率 growth rate
 
 ### Perpetuity 永续
 An perpetuity is an infinite stream of cashflows of identical magnitude and equal spacing in time
 - infinite
 - perpetuities, consol bonds
-$$
-PV of Perpetuity = \frac{CF}{R}
-$$
+$$PV of Perpetuity = \frac{CF}{R}$$
+
 **永续年金的意思：**
 - 每年付同样的钱（CF）
 - 一直付下去
 - 这个无限现金流的现值（PV）就是你今天要付出的资金
+
 ### Growing Perpetuity 永续增长
 A growing perpetuity is an infinite stream of cash flows that grow at a constant rate and that are evenly spaced through time
 - Dividends streams
-$$
-PV of Perpetuity = \frac{CF}{R-g}
-$$
+$$PV of Perpetuity = \frac{CF}{R-g}$$
 
 Saving with Tax 存更多钱
 After - tax Discount Rate:
 （1） Rt = R * (1-t)
 - 5% * (1 - 35%) = 3.25 %
 （2）
-$$
-PV = CF* (1 - (1 + Rt)^-T) / Rt
-$$
+$$PV =\frac{CF* (1 - (1 + Rt)^-T)} {R_t}$$
 
 
 
@@ -72,11 +68,10 @@ Present Value & Future
 
 If the discount rate is 3.5% percent per annum, what is the current price of the bond?
 
-###
 #### Inflation
 - Lesson: Inflation won't affect the money we earned
-- taxes affect $
-- Inflation affects consumption. not $
+- taxes affect money
+- Inflation affects consumption. not money
 - Earn nominal return but can't buy as much
 
  Real discount rate:
@@ -110,24 +105,18 @@ APR（Annual Percentage Rate）
     
 #### formula
 
-$$
-APR = r_{period} \times m
-$$
+$$APR = frac{r_{period}}{times} $$
 
 
 从APR转换到EAR（考虑复利）：
 
 如果每期利率 = APR / m：
 
-$$
-EAR = \left(1 + \frac{APR}{m}\right)^m - 1
-$$
+$$EAR = \left(1 + \frac{APR}{m}\right)^m - 1$$
 
 或者如果直接已知每期利率：
 
-$$
-EAR = \left(1 + r_{period}\right)^m - 1
-$$
+$$EAR = \left(1 + r_{period}\right)^m - 1$$
 
 
 **假设：**
@@ -196,9 +185,6 @@ NPV > 0, accept; NPV < 0, reject.
 
 
 
-
-
-
 ## Present Value 现值
 
 单笔现金流现值公式：
@@ -207,16 +193,12 @@ NPV > 0, accept; NPV < 0, reject.
 - \(r\) = 折现率（利率）
 - \(n\) = 期数
 
-$$
-PV = \frac{FV}{(1 + r)^n}
-$$
+$$PV = \frac{FV}{(1 + r)^n}$$
 
 
 单笔现金流未来价值公式：
 
-$$
-FV = PV \times (1 + r)^n
-$$
+$$FV = PV \times (1 + r)^n$$
 
 
 ## Annuity 年金
@@ -224,18 +206,14 @@ $$
 已经借了一笔钱，现在开始还，每期还多少。
 
 
-$$
-PV_{\text{annuity}} = C \times \frac{1 - \frac{1}{(1 + r)^n}}{r}
-$$
+$$PV_{\text{annuity}} = C \times \frac{1 - \frac{1}{(1 + r)^n}}{r}$$
 你借了400000，你每个月还多少。PV = 400000
 求C
 
 #### Future Value of an Annuity
 每期存款，最终有多少钱
 
-$$
-FV_{\text{annuity}} = C \times \frac{(1 + r)^n - 1}{r}
-$$
+$$FV_{\text{annuity}} = C \times \frac{(1 + r)^n - 1}{r}$$
 最终有FV， 你现在应该存C
 
 
@@ -250,9 +228,7 @@ $$
 
 **公式：**
 
-$$
-P = \sum_{t=1}^{N} \frac{C}{(1 + y)^t} + \frac{F}{(1 + y)^N}
-$$
+$$P = \sum_{t=1}^{N} \frac{C}{(1 + y)^t} + \frac{F}{(1 + y)^N}$$
 
 要求的就是y。
 
@@ -263,9 +239,7 @@ NOPAT=EBIT×(1−Tax Rate)
 
 **公式：**
 
-$$
-\text{Unlevered Free Cash Flow} = EBIT \times (1 - \text{Tax Rate}) + \text{Depreciation \& Amortization} - \text{Capital Expenditures} - \Delta \text{NWC}
-$$
+$$\text{Unlevered Free Cash Flow} = EBIT \times (1 - \text{Tax Rate}) + \text{Depreciation \& Amortization} - \text{Capital Expenditures} - \Delta \text{NWC}$$
 
 unlevered
 - 不减去利息支出
@@ -289,7 +263,6 @@ FCF= (Revenue - Costs-Depreciation) x (1-tc) + Depreciation - Capital Expenditur
 项目未来现金流的现值总和，减去初始投资。
 
 $$
-
 NPV = \sum_{t=0}^{n} \frac{FCF_t}{(1 + r)^t}
 $$
 
