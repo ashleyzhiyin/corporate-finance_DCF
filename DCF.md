@@ -15,7 +15,7 @@ In time.
 - 年金：每年领一次
 - finite
 $$
-PV = CF* (1 - (1 + R)^-T) / R
+PV = \frac{CF* (1 - (1 + R)^-T)}  {R}
 $$
 
 - $(1 + R)^-T$ : Discount factor for a cash flow received in period T
@@ -146,7 +146,8 @@ $$
 
 **EAR计算：**
 
-$$EAR = (1 + 0.01)^{12} - 1 = 1.1268 - 1 = 0.1268 = 12.68\%
+$$
+EAR = (1 + 0.01)^{12} - 1 = 1.1268 - 1 = 0.1268 = 12.68\%
 $$
 
 **12% APR**对应**12.68% EAR**。
